@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body { 
+    box-sizing: border-box;
+    background-color:black ;
+    color:#ffffff  ;
+} 
+
+.cabecalho-formatacao{
+    font-family: "Montserrat"sans-serif,;
+    font-size: 24px;
+    font-weight: 600;
+    color: aqua;   
+    display: flex;
+    gap: 80px; 
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+    
+.destaque {
+
+    color: aqua;
+}
+
+.formatacao {
+    padding: 8% 15%;
+    display: flex;
+    justify-items:space-between;
+    align-items: center;  
+}
+
+.formatacao_letras {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.apresentacao_escrita {
+    font-family: "Krona one"sans-serif;
+    font-size: 36px;
+   
+}
+.paragrafo {
+    font-size: 24px;
+    font-family: "Montserrat" sans-serif,;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.redes-socias{  
+    display: flex;
+    font-family: "Krona one"sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.estilo_do_botao {
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 16px;
+    border: 2px solid aqua;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0; 
+    text-decoration: none; 
+    color:white;
+    font-family: "Montserrat" sans-serif,;
+    
+}
+.estilo_do_botao:hover {
+    background-color:#272727 ;
+    color:aqua;
+}
+.rodape { 
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat" sans-serif,;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    background-color: aqua;
+}
+
