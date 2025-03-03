@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root {
+    --color-one: #22D4FD;
+    --color-two: #272727;
+    --color-tree: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
